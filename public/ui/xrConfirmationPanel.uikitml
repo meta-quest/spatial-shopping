@@ -1,0 +1,65 @@
+<style>
+  .confirmation-panel {
+    display: flex;
+    flex-direction: column;
+    width: 38.4;
+    background-color: #ffffff;
+    border-radius: 2.4;
+    padding: 3.2;
+  }
+
+  .confirmation-title {
+    font-size: 2;
+    font-weight: bold;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 2.8;
+  }
+
+  .confirmation-description {
+    font-size: 1.4;
+    font-weight: medium;
+    color: #272727;
+    text-align: left;
+    line-height: 2;
+    margin-bottom: 1.8;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.2;
+  }
+
+  .button {
+    width: 100%;
+    padding: 1.2;
+    font-size: 1.4;
+    font-weight: medium;
+    text-align: center;
+    border-radius: 10;
+    cursor: pointer;
+    border-width: 0;
+  }
+
+  .button--primary {
+    background-color: #272727;
+    color: #ffffff;
+  }
+
+  .button--secondary {
+    background-color: transparent;
+    color: #272727;
+  }
+</style>
+
+<div class="confirmation-panel" id="confirmation-panel">
+  <span class="confirmation-title" id="confirmation-title">Title</span>
+  <span class="confirmation-description" id="confirmation-description">Description</span>
+
+  <div class="button-container" id="button-container">
+    <button class="button button--primary" id="primary-button">Continue</button>
+    <button class="button button--secondary" id="secondary-button">Go back</button>
+  </div>
+</div>

@@ -1,0 +1,939 @@
+{
+  "products": {
+    "B001234567": {
+      "id": "B001234567",
+      "detailPageURL": "",
+      "itemInfo": {
+        "title": {
+          "displayValue": "Leather Lounge Chair - Premium Leather"
+        },
+        "features": {
+          "displayValue": [
+            "Premium Italian leather upholstery",
+            "Stainless steel frame with polished finish",
+            "Weight capacity: 300 lbs",
+            "Iconic mid-century modern design",
+            "Handcrafted construction"
+          ]
+        },
+        "productInfo": {
+          "dimensions": {
+            "height": {
+              "displayValue": "29.5\"",
+              "unit": "inches",
+              "value": 29.5
+            },
+            "width": {
+              "displayValue": "25.6\"",
+              "unit": "inches",
+              "value": 25.6
+            },
+            "length": {
+              "displayValue": "32.3\"",
+              "unit": "inches",
+              "value": 32.3
+            },
+            "weight": {
+              "displayValue": "48 lbs",
+              "unit": "pounds",
+              "value": 48
+            }
+          },
+          "color": "Brown",
+          "manufacturer": "Spatial Furnishings"
+        }
+      },
+      "images": {
+        "primary": {
+          "small": {
+            "url": "demo/imgs/lounge-chair.webp",
+            "width": 150,
+            "height": 150,
+            "altText": "Leather Lounge Chair - Brown Leather"
+          },
+          "medium": {
+            "url": "demo/imgs/lounge-chair.webp",
+            "width": 300,
+            "height": 300,
+            "altText": "Leather Lounge Chair - Brown Leather"
+          },
+          "large": {
+            "url": "demo/imgs/lounge-chair.webp",
+            "width": 500,
+            "height": 500,
+            "altText": "Leather Lounge Chair - Brown Leather"
+          }
+        },
+        "variants": []
+      },
+      "offers": {
+        "listings": [
+          {
+            "id": "offer-B001234567-1",
+            "price": {
+              "amount": 129900,
+              "currency": "USD",
+              "displayAmount": "$1,299.00"
+            },
+            "availability": {
+              "message": "In Stock",
+              "type": "NOW"
+            },
+            "merchantInfo": {
+              "name": "Spatial Furnishings"
+            }
+          }
+        ],
+        "summaries": [
+          {
+            "condition": "New",
+            "lowestPrice": {
+              "amount": 129900,
+              "currency": "USD",
+              "displayAmount": "$1,299.00"
+            },
+            "highestPrice": {
+              "amount": 129900,
+              "currency": "USD",
+              "displayAmount": "$1,299.00"
+            },
+            "offerCount": 1
+          }
+        ]
+      },
+      "browseNodeInfo": {
+        "browseNodes": [
+          {
+            "id": "furniture-chairs",
+            "displayName": "Chairs"
+          }
+        ]
+      },
+      "customerReviews": {
+        "starRating": {
+          "value": 4.7
+        },
+        "count": 1249
+      }
+    },
+    "B007654321": {
+      "id": "B007654321",
+      "detailPageURL": "",
+      "itemInfo": {
+        "title": {
+          "displayValue": "Sansevieria Plant - Modern Decor"
+        },
+        "features": {
+          "displayValue": [
+            "Low maintenance indoor plant",
+            "Air purifying qualities",
+            "Drought-resistant succulent",
+            "Modern ceramic planter included",
+            "Perfect for home or office"
+          ]
+        },
+        "productInfo": {
+          "dimensions": {
+            "height": {
+              "displayValue": "24.8\"",
+              "unit": "inches",
+              "value": 24.8
+            },
+            "width": {
+              "displayValue": "12.3\"",
+              "unit": "inches",
+              "value": 12.3
+            },
+            "length": {
+              "displayValue": "18.5\"",
+              "unit": "inches",
+              "value": 18.5
+            },
+            "weight": {
+              "displayValue": "8 lbs",
+              "unit": "pounds",
+              "value": 8
+            }
+          },
+          "color": "Green",
+          "manufacturer": "Urban Garden Co"
+        }
+      },
+      "images": {
+        "primary": {
+          "small": {
+            "url": "demo/imgs/sansevieria-plant.webp",
+            "width": 150,
+            "height": 150,
+            "altText": "Sansevieria Snake Plant"
+          },
+          "medium": {
+            "url": "demo/imgs/sansevieria-plant.webp",
+            "width": 300,
+            "height": 300,
+            "altText": "Sansevieria Snake Plant"
+          },
+          "large": {
+            "url": "demo/imgs/sansevieria-plant.webp",
+            "width": 500,
+            "height": 500,
+            "altText": "Sansevieria Snake Plant"
+          }
+        },
+        "variants": []
+      },
+      "offers": {
+        "listings": [
+          {
+            "id": "offer-B007654321-1",
+            "price": {
+              "amount": 13998,
+              "currency": "USD",
+              "displayAmount": "$139.98"
+            },
+            "availability": {
+              "message": "In Stock",
+              "type": "NOW"
+            },
+            "merchantInfo": {
+              "name": "Urban Garden Co"
+            }
+          }
+        ],
+        "summaries": [
+          {
+            "condition": "New",
+            "lowestPrice": {
+              "amount": 13998,
+              "currency": "USD",
+              "displayAmount": "$139.98"
+            },
+            "highestPrice": {
+              "amount": 13998,
+              "currency": "USD",
+              "displayAmount": "$139.98"
+            },
+            "offerCount": 1
+          }
+        ]
+      },
+      "browseNodeInfo": {
+        "browseNodes": [
+          {
+            "id": "home-garden-plants",
+            "displayName": "Indoor Plants"
+          }
+        ]
+      },
+      "customerReviews": {
+        "starRating": {
+          "value": 4.4
+        },
+        "count": 605
+      }
+    },
+    "B012345678": {
+      "id": "B012345678",
+      "detailPageURL": "",
+      "itemInfo": {
+        "title": {
+          "displayValue": "Movian Moselle Sideboard - Sonoma Oak"
+        },
+        "features": {
+          "displayValue": [
+            "Sonoma oak effect finish with dark grey accents",
+            "Two doors with soft-close hinges",
+            "Three internal shelves for storage",
+            "Modern contemporary design",
+            "Easy assembly with included hardware"
+          ]
+        },
+        "productInfo": {
+          "dimensions": {
+            "height": {
+              "displayValue": "29.5\"",
+              "unit": "inches",
+              "value": 29.5
+            },
+            "width": {
+              "displayValue": "59.1\"",
+              "unit": "inches",
+              "value": 59.1
+            },
+            "length": {
+              "displayValue": "31.5\"",
+              "unit": "inches",
+              "value": 31.5
+            },
+            "weight": {
+              "displayValue": "72 lbs",
+              "unit": "pounds",
+              "value": 72
+            }
+          },
+          "color": "Sonoma Oak/Dark Grey",
+          "manufacturer": "Movian"
+        }
+      },
+      "images": {
+        "primary": {
+          "small": {
+            "url": "demo/imgs/B07H469871.webp",
+            "width": 150,
+            "height": 150,
+            "altText": "Movian Moselle Sideboard"
+          },
+          "medium": {
+            "url": "demo/imgs/B07H469871.webp",
+            "width": 300,
+            "height": 300,
+            "altText": "Movian Moselle Sideboard"
+          },
+          "large": {
+            "url": "demo/imgs/B07H469871.webp",
+            "width": 500,
+            "height": 500,
+            "altText": "Movian Moselle Sideboard"
+          }
+        },
+        "variants": []
+      },
+      "offers": {
+        "listings": [
+          {
+            "id": "offer-B012345678-1",
+            "price": {
+              "amount": 24999,
+              "currency": "USD",
+              "displayAmount": "$249.99"
+            },
+            "availability": {
+              "message": "In Stock",
+              "type": "NOW"
+            },
+            "merchantInfo": {
+              "name": "Movian Official Store"
+            }
+          }
+        ],
+        "summaries": [
+          {
+            "condition": "New",
+            "lowestPrice": {
+              "amount": 24999,
+              "currency": "USD",
+              "displayAmount": "$249.99"
+            },
+            "highestPrice": {
+              "amount": 24999,
+              "currency": "USD",
+              "displayAmount": "$249.99"
+            },
+            "offerCount": 1
+          }
+        ]
+      },
+      "browseNodeInfo": {
+        "browseNodes": [
+          {
+            "id": "furniture-storage-cabinets",
+            "displayName": "Storage Cabinets"
+          }
+        ]
+      },
+      "customerReviews": {
+        "starRating": {
+          "value": 4.5
+        },
+        "count": 823
+      }
+    },
+    "B015678901": {
+      "id": "B015678901",
+      "detailPageURL": "",
+      "itemInfo": {
+        "title": {
+          "displayValue": "Rivet Glass 3 Pendant Chandelier"
+        },
+        "features": {
+          "displayValue": [
+            "Three glass pendant shades with vintage-style bulbs",
+            "Mid-century modern design aesthetic",
+            "Adjustable hanging height up to 60 inches",
+            "Matte black metal finish",
+            "Compatible with dimmer switches"
+          ]
+        },
+        "productInfo": {
+          "dimensions": {
+            "height": {
+              "displayValue": "60\"",
+              "unit": "inches",
+              "value": 60
+            },
+            "width": {
+              "displayValue": "14.25\"",
+              "unit": "inches",
+              "value": 14.25
+            },
+            "length": {
+              "displayValue": "14.25\"",
+              "unit": "inches",
+              "value": 14.25
+            },
+            "weight": {
+              "displayValue": "12 lbs",
+              "unit": "pounds",
+              "value": 12
+            }
+          },
+          "color": "Black/Clear Glass",
+          "manufacturer": "Rivet"
+        }
+      },
+      "images": {
+        "primary": {
+          "small": {
+            "url": "demo/imgs/B071LD87KZ.webp",
+            "width": 150,
+            "height": 150,
+            "altText": "Rivet Glass Chandelier"
+          },
+          "medium": {
+            "url": "demo/imgs/B071LD87KZ.webp",
+            "width": 300,
+            "height": 300,
+            "altText": "Rivet Glass Chandelier"
+          },
+          "large": {
+            "url": "demo/imgs/B071LD87KZ.webp",
+            "width": 500,
+            "height": 500,
+            "altText": "Rivet Glass Chandelier"
+          }
+        },
+        "variants": []
+      },
+      "offers": {
+        "listings": [
+          {
+            "id": "offer-B015678901-1",
+            "price": {
+              "amount": 17999,
+              "currency": "USD",
+              "displayAmount": "$179.99"
+            },
+            "availability": {
+              "message": "In Stock",
+              "type": "NOW"
+            },
+            "merchantInfo": {
+              "name": "Rivet Home Decor"
+            }
+          }
+        ],
+        "summaries": [
+          {
+            "condition": "New",
+            "lowestPrice": {
+              "amount": 17999,
+              "currency": "USD",
+              "displayAmount": "$179.99"
+            },
+            "highestPrice": {
+              "amount": 17999,
+              "currency": "USD",
+              "displayAmount": "$179.99"
+            },
+            "offerCount": 1
+          }
+        ]
+      },
+      "browseNodeInfo": {
+        "browseNodes": [
+          {
+            "id": "lighting-ceiling-chandeliers",
+            "displayName": "Chandeliers"
+          }
+        ]
+      },
+      "customerReviews": {
+        "starRating": {
+          "value": 4.6
+        },
+        "count": 1342
+      }
+    },
+    "B016789012": {
+      "id": "B016789012",
+      "detailPageURL": "",
+      "itemInfo": {
+        "title": {
+          "displayValue": "Rivet Black and White Abstract Canvas Print Wall Art, 24\" x 36\""
+        },
+        "features": {
+          "displayValue": [
+            "High-quality canvas print with fade-resistant inks",
+            "Modern abstract black and white design",
+            "Ready to hang with mounting hardware included",
+            "1.5 inch gallery wrap depth",
+            "Contemporary minimalist aesthetic"
+          ]
+        },
+        "productInfo": {
+          "dimensions": {
+            "height": {
+              "displayValue": "36\"",
+              "unit": "inches",
+              "value": 36
+            },
+            "width": {
+              "displayValue": "24\"",
+              "unit": "inches",
+              "value": 24
+            },
+            "length": {
+              "displayValue": "1.5\"",
+              "unit": "inches",
+              "value": 1.5
+            },
+            "weight": {
+              "displayValue": "3.5 lbs",
+              "unit": "pounds",
+              "value": 3.5
+            }
+          },
+          "color": "Black/White",
+          "manufacturer": "Rivet"
+        }
+      },
+      "images": {
+        "primary": {
+          "small": {
+            "url": "demo/imgs/B073P1CJGC.webp",
+            "width": 150,
+            "height": 150,
+            "altText": "Abstract Wall Art"
+          },
+          "medium": {
+            "url": "demo/imgs/B073P1CJGC.webp",
+            "width": 300,
+            "height": 300,
+            "altText": "Abstract Wall Art"
+          },
+          "large": {
+            "url": "demo/imgs/B073P1CJGC.webp",
+            "width": 500,
+            "height": 500,
+            "altText": "Abstract Wall Art"
+          }
+        },
+        "variants": []
+      },
+      "offers": {
+        "listings": [
+          {
+            "id": "offer-B016789012-1",
+            "price": {
+              "amount": 7999,
+              "currency": "USD",
+              "displayAmount": "$79.99"
+            },
+            "availability": {
+              "message": "In Stock",
+              "type": "NOW"
+            },
+            "merchantInfo": {
+              "name": "Rivet Home Decor"
+            }
+          }
+        ],
+        "summaries": [
+          {
+            "condition": "New",
+            "lowestPrice": {
+              "amount": 7999,
+              "currency": "USD",
+              "displayAmount": "$79.99"
+            },
+            "highestPrice": {
+              "amount": 7999,
+              "currency": "USD",
+              "displayAmount": "$79.99"
+            },
+            "offerCount": 1
+          }
+        ]
+      },
+      "browseNodeInfo": {
+        "browseNodes": [
+          {
+            "id": "home-decor-wall-art",
+            "displayName": "Wall Art"
+          }
+        ]
+      },
+      "customerReviews": {
+        "starRating": {
+          "value": 4.4
+        },
+        "count": 892
+      }
+    },
+    "B017890123": {
+      "id": "B017890123",
+      "detailPageURL": "",
+      "itemInfo": {
+        "title": {
+          "displayValue": "Rivet Stag Head Figurine - White"
+        },
+        "features": {
+          "displayValue": [
+            "High-quality polyresin construction",
+            "Detailed stag head design with antlers",
+            "Elegant white matte finish",
+            "Mid-century modern aesthetic",
+            "Perfect for shelf or mantle display"
+          ]
+        },
+        "productInfo": {
+          "dimensions": {
+            "height": {
+              "displayValue": "12.5\"",
+              "unit": "inches",
+              "value": 12.5
+            },
+            "width": {
+              "displayValue": "8\"",
+              "unit": "inches",
+              "value": 8
+            },
+            "length": {
+              "displayValue": "7\"",
+              "unit": "inches",
+              "value": 7
+            },
+            "weight": {
+              "displayValue": "2.5 lbs",
+              "unit": "pounds",
+              "value": 2.5
+            }
+          },
+          "color": "White",
+          "manufacturer": "Rivet"
+        }
+      },
+      "images": {
+        "primary": {
+          "small": {
+            "url": "demo/imgs/B07B8PXMTK.webp",
+            "width": 150,
+            "height": 150,
+            "altText": "Stag Head Figurine"
+          },
+          "medium": {
+            "url": "demo/imgs/B07B8PXMTK.webp",
+            "width": 300,
+            "height": 300,
+            "altText": "Stag Head Figurine"
+          },
+          "large": {
+            "url": "demo/imgs/B07B8PXMTK.webp",
+            "width": 500,
+            "height": 500,
+            "altText": "Stag Head Figurine"
+          }
+        },
+        "variants": []
+      },
+      "offers": {
+        "listings": [
+          {
+            "id": "offer-B017890123-1",
+            "price": {
+              "amount": 5999,
+              "currency": "USD",
+              "displayAmount": "$59.99"
+            },
+            "availability": {
+              "message": "In Stock",
+              "type": "NOW"
+            },
+            "merchantInfo": {
+              "name": "Rivet Home Decor"
+            }
+          }
+        ],
+        "summaries": [
+          {
+            "condition": "New",
+            "lowestPrice": {
+              "amount": 5999,
+              "currency": "USD",
+              "displayAmount": "$59.99"
+            },
+            "highestPrice": {
+              "amount": 5999,
+              "currency": "USD",
+              "displayAmount": "$59.99"
+            },
+            "offerCount": 1
+          }
+        ]
+      },
+      "browseNodeInfo": {
+        "browseNodes": [
+          {
+            "id": "home-decor-figurines",
+            "displayName": "Decorative Figurines"
+          }
+        ]
+      },
+      "customerReviews": {
+        "starRating": {
+          "value": 4.3
+        },
+        "count": 674
+      }
+    }
+  },
+  "variations": {
+    "B001234567": [
+      {
+        "id": "B001234567-BROWN-LEATHER",
+        "attributes": {
+          "color": "Brown",
+          "material": "Leather"
+        },
+        "thumbnail": {
+          "url": "demo/imgs/lounge-chair-brown.webp",
+          "width": 150,
+          "height": 150,
+          "altText": "Leather Lounge Chair - Brown Leather"
+        },
+        "price": {
+          "amount": 129900,
+          "currency": "USD",
+          "displayAmount": "$1,299.00"
+        },
+        "availability": {
+          "inStock": true,
+          "message": "In Stock",
+          "estimatedDelivery": "Ships in 1-2 business days"
+        },
+        "materialSet": [
+          {
+            "materialName": "Leather",
+            "texturePack": {
+              "diffuse": "Leather_baseColor_Brown.png",
+              "metallicRoughness": "Leather_metallicRoughness.webp",
+              "normal": "Leather_normal.webp",
+              "repeat": [
+                1,
+                1
+              ]
+            }
+          }
+        ],
+        "isDefault": false
+      },
+      {
+        "id": "B001234567-BLACK-LEATHER",
+        "attributes": {
+          "color": "Black",
+          "material": "Leather"
+        },
+        "thumbnail": {
+          "url": "demo/imgs/lounge-chair-black.webp",
+          "width": 150,
+          "height": 150,
+          "altText": "Leather Lounge Chair - Black Leather"
+        },
+        "price": {
+          "amount": 129900,
+          "currency": "USD",
+          "displayAmount": "$1,299.00"
+        },
+        "availability": {
+          "inStock": true,
+          "message": "In Stock",
+          "estimatedDelivery": "Ships in 1-2 business days"
+        },
+        "materialSet": [
+          {
+            "materialName": "Leather",
+            "texturePack": {
+              "diffuse": "Leather_baseColor.jpg",
+              "metallicRoughness": "Leather_metallicRoughness.webp",
+              "normal": "Leather_normal.webp",
+              "repeat": [
+                1,
+                1
+              ]
+            }
+          }
+        ],
+        "isDefault": true
+      },
+      {
+        "id": "B001234567-WHITE-LEATHER",
+        "attributes": {
+          "color": "White",
+          "material": "Leather"
+        },
+        "thumbnail": {
+          "url": "demo/imgs/lounge-chair-white.webp",
+          "width": 150,
+          "height": 150,
+          "altText": "Leather Lounge Chair - White Leather"
+        },
+        "price": {
+          "amount": 139900,
+          "currency": "USD",
+          "displayAmount": "$1,399.00"
+        },
+        "availability": {
+          "inStock": true,
+          "message": "In Stock"
+        },
+        "materialSet": [
+          {
+            "materialName": "Leather",
+            "texturePack": {
+              "diffuse": "Leather_baseColor_White.png",
+              "metallicRoughness": "Leather_metallicRoughness.webp",
+              "normal": "Leather_normal.webp",
+              "repeat": [
+                1,
+                1
+              ]
+            }
+          }
+        ],
+        "isDefault": false
+      }
+    ]
+  },
+  "xrMetadata": {
+    "B001234567": {
+      "assetUrl": "demo/gltf/loungeChair/loungeChair.glb",
+      "initialPosition": [
+        0,
+        0,
+        2.5
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": 1,
+      "orientation": "horizontal",
+      "preferredPlacement": "floor",
+      "materialAdjustments": {
+        "roughness": 0.5,
+        "metalness": 0.8
+      }
+    },
+    "B007654321": {
+      "assetUrl": "demo/gltf/plantSansevieria/plantSansevieria3.gltf",
+      "initialPosition": [
+        0,
+        1.2,
+        2.5
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": 1.5,
+      "orientation": "horizontal",
+      "preferredPlacement": "floor",
+      "materialAdjustments": {
+        "roughness": 0.7,
+        "metalness": 0.3
+      }
+    },
+    "B012345678": {
+      "assetUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/3dmodels/original/1/B07H469871.glb",
+      "initialPosition": [
+        0,
+        0,
+        2.5
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": 1,
+      "orientation": "horizontal",
+      "preferredPlacement": "floor",
+      "materialAdjustments": {
+        "roughness": 0.6,
+        "metalness": 0.2
+      }
+    },
+    "B015678901": {
+      "assetUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/3dmodels/original/Z/B071LD87KZ.glb",
+      "initialPosition": [
+        0,
+        1.5,
+        2.5
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": 0.75,
+      "orientation": "horizontal-inverted",
+      "preferredPlacement": "ceiling",
+      "materialAdjustments": {
+        "roughness": 0.4,
+        "metalness": 0.7
+      }
+    },
+    "B016789012": {
+      "assetUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/3dmodels/original/C/B073P1CJGC.glb",
+      "initialPosition": [
+        0,
+        1.5,
+        1.5
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": 1,
+      "orientation": "vertical",
+      "preferredPlacement": "wall",
+      "materialAdjustments": {
+        "roughness": 0.8,
+        "metalness": 0.1
+      }
+    },
+    "B017890123": {
+      "assetUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/3dmodels/original/K/B07B8PXMTK.glb",
+      "initialPosition": [
+        0,
+        0.8,
+        2
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": 1,
+      "orientation": "horizontal",
+      "preferredPlacement": "table",
+      "materialAdjustments": {
+        "roughness": 0.6,
+        "metalness": 0.1
+      }
+    }
+  }
+}

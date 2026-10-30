@@ -1,0 +1,180 @@
+<style>
+  .control-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(252, 252, 252, 0.96);
+    border-color: rgba(39, 39, 39, 0.08);
+    border-width: 0.1;
+    gap: 0.4;
+    border-radius: 3;
+    padding-top: 0.8;
+    padding-right: 0.8;
+    padding-bottom: 0.8;
+    padding-left: 0.8;
+    overflow: visible;
+  }
+
+  .control-button {
+    width: 4.4;
+    height: 4.4;
+    background-color: transparent;
+    border-radius: 2.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-width: 0;
+    overflow: visible;
+  }
+
+  .control-button:hover {
+    background-color: rgba(39, 39, 39, 0.1);
+  }
+
+  .control-button:active {
+    background-color: rgba(39, 39, 39, 0.15);
+  }
+
+  .control-button--active {
+    background-color: #dfe9ff;
+  }
+
+  .control-button--active:hover {
+    background-color: #d3e1ff;
+  }
+
+  .control-button--primary {
+    background-color: #dfe9ff;
+  }
+
+  .control-button--primary:hover {
+    background-color: #d3e1ff;
+  }
+
+  .control-button--primary:active {
+    background-color: #c5d7ff;
+  }
+
+  .control-button--disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.3;
+  }
+
+  .control-divider {
+    width: 2.8;
+    height: 0.15;
+    margin-top: 0.6;
+    margin-bottom: 0.6;
+    background-color: #8b949e;
+  }
+
+  .control-icon {
+    width: 2.4;
+    height: 2.4;
+  }
+
+  .button-tooltip {
+    position-type: absolute;
+    position-top: 0;
+    position-left: 5.4;
+    background-color: rgba(32, 36, 43, 0.96);
+    color: #ffffff;
+    font-size: 1.2;
+    font-weight: medium;
+    padding-top: 0.7;
+    padding-right: 1.2;
+    padding-bottom: 0.7;
+    padding-left: 1.2;
+    border-radius: 0.7;
+    white-space: normal;
+    line-height: 1.33;
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .cart-button-wrapper {
+    display: flex;
+    width: 4.4;
+    height: 4.4;
+    position-type: relative;
+    overflow: visible;
+  }
+
+  .cart-badge {
+    position-type: absolute;
+    position-top: 0.2;
+    position-right: 0.2;
+    width: 1.8;
+    height: 1.8;
+    background-color: #dd1535;
+    border-radius: 0.9;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cart-badge-text {
+    color: #ffffff;
+    font-size: 1;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+  }
+</style>
+
+<div class="control-bar" id="bottom-control-panel">
+  <div class="control-button" id="back-button">
+    <img src="imgs/exit.png" class="control-icon" id="back-icon" />
+    <span class="button-tooltip" id="back-tooltip">Exit</span>
+  </div>
+
+  <div class="control-divider"></div>
+
+  <div class="control-button" id="max-min-button">
+    <img src="imgs/max-min-button.png" class="control-icon" id="max-min-icon" />
+    <span class="button-tooltip" id="max-min-tooltip-left">Show Details</span>
+    <span class="button-tooltip" id="max-min-tooltip-right">Hide Details</span>
+  </div>
+
+  <div class="control-button" id="variants-button">
+    <img src="imgs/variants-button.png" class="control-icon" id="variants-icon" />
+    <span class="button-tooltip" id="variants-tooltip">Variants</span>
+  </div>
+
+  <div class="control-button" id="adjust-position-button">
+    <img src="imgs/move-button.png" class="control-icon" id="adjust-position-icon" />
+    <span class="button-tooltip" id="adjust-position-tooltip">Manipulate</span>
+  </div>
+
+  <div class="control-button" id="show-dimensions-button">
+    <img src="imgs/show-dimensions-button.png" class="control-icon" id="show-dimensions-icon" />
+    <span class="button-tooltip" id="show-dimensions-tooltip-off">Show Dimensions</span>
+    <span class="button-tooltip" id="show-dimensions-tooltip-on">Hide Dimensions</span>
+  </div>
+
+  <div class="control-button" id="occlusion-button">
+    <img src="imgs/occlusion-button.png" class="control-icon" id="occlusion-icon" />
+    <span class="button-tooltip" id="occlusion-tooltip-off">Enable Occlusion</span>
+    <span class="button-tooltip" id="occlusion-tooltip-on">Disable Occlusion</span>
+  </div>
+
+  <div class="control-divider"></div>
+
+  <div class="control-button control-button--primary" id="add-to-cart-button">
+    <img src="imgs/add.png" class="control-icon" id="add-to-cart-icon" />
+    <span class="button-tooltip" id="add-to-cart-tooltip">Add to Cart</span>
+  </div>
+
+  <div class="cart-button-wrapper">
+    <div class="control-button" id="cart-data-button">
+      <img src="imgs/add-to-cart-button.png" class="control-icon" id="cart-data-icon" />
+      <span class="button-tooltip" id="cart-data-tooltip">View Cart</span>
+    </div>
+    <div class="cart-badge" id="cart-badge">
+      <span class="cart-badge-text" id="cart-badge-text">0</span>
+    </div>
+  </div>
+</div>

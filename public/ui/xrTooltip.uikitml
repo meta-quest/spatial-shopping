@@ -1,0 +1,192 @@
+<style>
+  .tooltip-panel {
+    display: flex;
+    flex-direction: column;
+    width: 38.4;
+    background-color: #ffffff;
+    border-radius: 2.5;
+  }
+
+  .illustration-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20;
+    border-top-left-radius: 2.5;
+    border-top-right-radius: 2.5;
+  }
+
+  .illustration-container {
+    display: flex;
+    width: 100%;
+    height: 20;
+    border-top-left-radius: 2.5;
+    border-top-right-radius: 2.5;
+  }
+
+  .illustration-image {
+    width: 38.4;
+    height: 20;
+    border-top-left-radius: 2.5;
+    border-top-right-radius: 2.5;
+  }
+
+  .secondary-container {
+    display: flex;
+    margin-left: -100%;
+    width: 100%;
+    height: 20;
+    border-top-left-radius: 2.5;
+    border-top-right-radius: 2.5;
+  }
+
+  .secondary-image {
+    width: 38.4;
+    height: 20;
+    border-top-left-radius: 2.5;
+    border-top-right-radius: 2.5;
+  }
+
+  .content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 3.2;
+    padding-top: 2.4;
+    border-bottom-left-radius: 2.5;
+    border-bottom-right-radius: 2.5;
+  }
+
+  .stepper-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8;
+    margin-bottom: 2.8;
+  }
+
+  .step-indicator {
+    width: 7.4;
+    height: 1.2;
+    background-color: #e0e0e0;
+    border-radius: 10;
+  }
+
+  .tooltip-title {
+    font-size: 2.8;
+    font-weight: bold;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 2.2;
+  }
+
+  .tooltip-description {
+    font-size: 1.4;
+    font-weight: medium;
+    color: #272727;
+    text-align: left;
+    line-height: 2;
+    min-height: 5.6;
+    margin-bottom: 2.5;
+  }
+
+  .checkbox-container {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2;
+    margin-bottom: 2.5;
+  }
+
+  .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2;
+    height: 2;
+    background-color:rgba(39, 39, 39, 0.35);
+    border-radius: 0.6;
+    cursor: pointer;
+  }
+
+  .checkbox-indicator {
+    display: none;
+    width: 1.2;
+    height: 1.2;
+    background-color:rgba(39, 39, 39, 1);
+    border-radius: 0.4;
+  }
+
+  .checkbox-label {
+    font-size: 1.4;
+    font-weight: medium;
+    color: #272727;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.2;
+  }
+
+  .button {
+    width: 100%;
+    padding: 1.5;
+    font-size: 1.4;
+    font-weight: medium;
+    text-align: center;
+    border-radius: 10;
+    cursor: pointer;
+  }
+
+  .button--continue {
+    background-color: #272727;
+    color: #ffffff;
+  }
+
+  .button--back {
+    background-color: transparent;
+    color: #272727;
+  }
+
+</style>
+
+<div class="tooltip-panel" id="tooltip-panel">
+  <div class="illustration-wrapper" id="illustration-wrapper">
+    <div class="illustration-container" id="illustration-container">
+      <video class="illustration-image" id="illustration-video" src="imgs/placement-tooltip-1.webm" width="38.4" height="20" loop muted></video>
+      <img class="illustration-image" id="illustration-image" src="imgs/placement-tooltip-2.webp" style="display: none;" />
+    </div>
+
+    <div class="secondary-container" id="secondary-container" style="display: none;">
+      <!-- Empty src: the parser requires the attribute, and an empty src makes no request. AnimatedStepContainer.setContent() assigns the real video when a step needs it. -->
+      <video class="secondary-image" id="secondary-video" src="" width="38.4" height="20" loop muted></video>
+      <img class="secondary-image" id="secondary-image" src="imgs/placement-tooltip-2.webp" style="display: none;" />
+    </div>
+  </div>
+
+  <div class="content-area">
+    <div class="stepper-container" id="stepper-container">
+      <div class="step-indicator" id="step-1"></div>
+      <div class="step-indicator" id="step-2"></div>
+      <div class="step-indicator" id="step-3"></div>
+      <div class="step-indicator" id="step-4"></div>
+    </div>
+
+    <span class="tooltip-title" id="tooltip-title">Grab and Place</span>
+    <span class="tooltip-description" id="tooltip-description">Pinch your fingers to grab the object. Move your hand, then release to place it.</span>
+
+    <div class="checkbox-container" id="checkbox-container">
+      <div class="checkbox" id="checkbox">
+        <div class="checkbox-indicator" id="checkbox-indicator"></div>
+      </div>
+      <span class="checkbox-label">Do not show tutorial</span>
+    </div>
+
+    <div class="button-container" id="button-container">
+      <button class="button button--continue" id="continue-button">Continue</button>
+      <button class="button button--back" id="close-button">Close</button>
+    </div>
+  </div>
+</div>
